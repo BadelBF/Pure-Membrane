@@ -16,5 +16,6 @@ where:
 `packmol-memgen`: Invokes the automated membrane-building workflow script. \
 `--lipids POPC`: Sets the lipid composition to 100% POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine), a standard model phospholipid for eukaryotic membranes. \
 `--ratio 1`: Defines the molar ratio of the specified lipids. Since only one lipid (POPC) is listed, 1 represents a single-component membrane (100% POPC). \
-`--dims 40 40 60`: Sets the target dimensions of the simulation box in Angstroms (Å) along the X, Y, and Z axes (40 Å X 40 Å X 60 Å).
-`--dist_wat 15`: Adds a water layer (solvation padding) of at least 15 Å above and below the lipid bilayer along the Z-axis 
+`--dims 40 40 60`: Sets the target dimensions of the simulation box in Angstroms (Å) along the X, Y, and Z axes (40 Å X 40 Å X 60 Å). \
+`--dist_wat 15`: Adds a water layer (solvation padding) of at least 15 Å above and below the lipid bilayer along the Z-axis. \
+
