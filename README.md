@@ -21,4 +21,6 @@ where:
 `--salt`: Adds neutralizing counterions and bulk salt ions to the water phase. \
 `--salt_c Na+`: Specifies sodium (Na+)) as the positively charged cation. \
 `--salt_a Cl-`: Specifies chloride (Cl-) as the negatively charged anion. \
-`--saltcon 0.15`: Sets the bulk salt concentration to 0.15 M (150 mM), mimicking physiological saline conditions. \
+`--saltcon 0.15`: Sets the bulk salt concentration to 0.15 M (150 mM), mimicking physiological saline conditions.
+
+
