@@ -18,4 +18,7 @@ where:
 `--ratio 1`: Defines the molar ratio of the specified lipids. Since only one lipid (POPC) is listed, 1 represents a single-component membrane (100% POPC). \
 `--dims 40 40 60`: Sets the target dimensions of the simulation box in Angstroms (Å) along the X, Y, and Z axes (40 Å X 40 Å X 60 Å). \
 `--dist_wat 15`: Adds a water layer (solvation padding) of at least 15 Å above and below the lipid bilayer along the Z-axis. \
-
+`--salt`: Adds neutralizing counterions and bulk salt ions to the water phase.
+`--salt_c Na+`: Specifies sodium (\(\text{Na}^{+}\)) as the positively charged cation.
+`--salt_a Cl-`: Specifies chloride (\(\text{Cl}^{-}\)) as the negatively charged anion.
+`--saltcon 0.15`: Sets the bulk salt concentration to 0.15 M (150 mM), mimicking physiological saline conditions.
